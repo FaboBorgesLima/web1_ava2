@@ -1,0 +1,199 @@
+/*header style*/
+#nav_box,
+#main_header{
+
+    width: 100%;
+    min-width: 1000px;
+
+}
+#main_header{
+
+    background: url(../img/barcos.webp);
+    padding-top:3rem;
+    margin-bottom:2rem;
+    height: 25rem;
+}
+/*general def*/
+html{
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f6f7;
+    padding-bottom: 3rem;
+}
+.size{
+    /*size of the website content*/
+    width: 1000px;
+    margin:0rem auto;
+
+}
+.title{
+    /*generic title*/
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform:uppercase;
+    margin-bottom: 1rem;
+}
+#main_header,
+.background_img_cover{
+    /*cover all the space with an image*/
+    background-size:cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+
+}
+/*navigation bar style*/
+#nav_box{
+    /*def where the navigation bar will stay*/
+    background-color: #fff;
+    position: sticky;
+    top:0;
+    left:0;
+    
+}
+#nav_bar{
+    /*style of the main navigation bar*/
+    padding: 0.2rem;
+    border:none;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav_link{
+
+    width: 5rem;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.nav_item{
+    display: flex;
+}
+/*logo style*/
+.logo{
+    /*main logo style*/
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.red_logo,
+.yellow_logo,
+.green_logo{
+
+    font-size: 2rem;
+}
+.red_logo{
+    color:#f35926;
+
+}
+.yellow_logo{
+
+    color:#fcb929;
+}
+.green_logo{
+
+    color:#00b049;
+}
+/*form box*/
+#form_box{
+
+    background-color: #fff;
+    padding: 1.5rem;
+    border:none;
+    border-radius: 0.75rem;
+}
+#input_content_box{
+
+    display: flex;
+    gap:0.5rem;
+    width: 100%;
+}
+.input_content_item{
+
+    text-transform: capitalize;
+    width:20%;
+    padding: 0.3rem;
+}
+#form_button{
+
+    background-color: #ea3d35;
+    border:none;
+    border-radius: 0.2rem;
+    font-weight: bolder;
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*grid*/
+#grid_discount{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.grid_discount_item{
+
+    border-radius: 1rem;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+.grid_item_name,
+.price{
+
+    color:#fff;
+    text-shadow: 0px 0px 3px #000;
+    font-weight:bolder;
+    margin-bottom: 1rem;
+}
+.price{
+
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.see_more_button{
+
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 3px #000;
+    margin: auto;
+    width: 100%;
+}
+/*background images*/
+.grid_discount_item:nth-child(1) {
+
+    background: url(../img/rio.webp);
+}
+.grid_discount_item:nth-child(2){
+
+    background: url(../img/bonito.webp);
+}
+.grid_discount_item:nth-child(3){
+
+    background: url(../img/sao-paulo.webp);
+}
+.grid_discount_item:nth-child(4){
+
+    background: url(../img/foz.webp);
+}
+.grid_discount_item:nth-child(5){
+
+    background: url(../img/maceio.webp);
+}
+.grid_discount_item:nth-child(6){
+
+    background: url(../img/salvador.webp);
+}
+.grid_discount_item:nth-child(7){
+
+    background: url(../img/fortaleza.webp);
+}
+.grid_discount_item:nth-child(8){
+
+    background: url(../img/belo-horizonte.webp);
+}
